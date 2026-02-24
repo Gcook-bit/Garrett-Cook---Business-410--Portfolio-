@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Garrett Cook | BUS 410 Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Garrett Cook</a>
+      <nav class="nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="resume.html">Resume</a>
+        <a href="pcr.html">PCR Activities</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <h1>BUS 410 Final Portfolio</h1>
+        <p class="lead">
+          Welcome! This site includes my About Me, Resume, and PCR Activities with reflections.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="about.html">About Me</a>
+          <a class="btn btn-outline" href="pcr.html">PCR Activities</a>
+        </div>
+
+        <div class="quick-facts card">
+          <h2>Quick Facts</h2>
+          <ul>
+            <li><strong>Major:</strong> Accounting (edit)</li>
+            <li><strong>Graduation:</strong> Month Year (edit)</li>
+            <li><strong>Interests:</strong> Skiing, outdoors, etc. (edit)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hero-right card">
+        <div class="photo-placeholder">
+          <p><strong>Add a photo</strong></p>
+          <p class="muted">Replace this box with an image (optional).</p>
+          <p class="muted small">Tip: add a file named <code>profile.jpg</code> and swap this box for an &lt;img&gt; tag.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>About Me</h2>
+        <p>
+          A quick intro about who you are, what you’re studying, and where you’re headed professionally.
+        </p>
+        <a class="link" href="about.html">Go to About Me →</a>
+      </div>
+
+      <div class="card">
+        <h2>Resume</h2>
+        <p>
+          View or download my resume (embedded PDF or link).
+        </p>
+        <a class="link" href="resume.html">Go to Resume →</a>
+      </div>
+
+      <div class="card">
+        <h2>PCR Activities</h2>
+        <p>
+          Activities, points, and 6–8 sentence reflections for each item plus a final reflection.
+        </p>
+        <a class="link" href="pcr.html">Go to PCR Activities →</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p class="muted small">© <span id="year"></span> Garrett Cook • BUS 410 Portfolio</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html> 
