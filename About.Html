@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About Me | Garrett Cook</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Garrett Cook</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html">About Me</a>
+        <a href="resume.html">Resume</a>
+        <a href="pcr.html">PCR Activities</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1>About Me</h1>
+      <p class="lead">Major, graduation timeline, and a few things that make you you.</p>
+    </section>
+
+    <section class="card">
+      <h2>Professional Snapshot</h2>
+      <p>
+        I’m <strong>Garrett Cook</strong>, a <strong>(Major)</strong> student at <strong>Western Washington University</strong>
+        in the <strong>(Honors College / program if you want)</strong>. I plan to graduate in <strong>(Month Year)</strong>.
+      </p>
+      <p>
+        I’m interested in <strong>(your focus)</strong> and I’m building experience through
+        <strong>(internships, clubs, projects)</strong>.
+      </p>
+
+      <h3>What I’m aiming for</h3>
+      <ul>
+        <li>(Example) Accounting internship / public accounting role</li>
+        <li>(Example) ESG / sustainability reporting interest</li>
+        <li>(Example) Long-term: CPA + advisory work</li>
+      </ul>
+
+      <h3>Something interesting</h3>
+      <p>
+        (Add a fun/professional-friendly detail: skiing, volunteer ski patrol, outdoors, etc.)
+      </p>
+
+      <h3>Links</h3>
+      <ul>
+        <li><a class="link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn (replace link)</a></li>
+        <li><a class="link" href="#" target="_blank" rel="noreferrer">Handshake (optional)</a></li>
+      </ul>
+    </section>
+
+    <footer class="footer">
+      <p class="muted small">© <span id="year"></span> Garrett Cook</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
