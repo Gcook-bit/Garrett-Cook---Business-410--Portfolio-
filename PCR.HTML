@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PCR Activities | Garrett Cook</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Garrett Cook</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="resume.html">Resume</a>
+        <a class="active" href="pcr.html">PCR Activities</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1>PCR Activities</h1>
+      <p class="lead">
+        Each activity includes a title, points, and a 6–8 sentence summary + reflection.
+      </p>
+    </section>
+
+    <!-- FINAL REFLECTION (6–8 sentences) -->
+    <section class="card">
+      <h2>Final Reflection</h2>
+      <p class="muted small">6–8 sentences on how college developed you professionally and how you’ll apply it.</p>
+      <p>
+        (Write your final reflection here. Include WWU, any prior schools, work experience, and how it shapes your future career.)
+      </p>
+    </section>
+
+    <!-- ACTIVITIES -->
+    <section class="stack">
+      <!-- Copy/paste this card for each activity -->
+      <article class="card activity">
+        <div class="activity-head">
+          <h2>Activity Title <span class="pill">X points</span></h2>
+          <p class="muted small">Category: (Professional / Career / Readiness etc. — optional)</p>
+        </div>
+        <p class="muted small">Summary + Reflection (6–8 sentences):</p>
+        <p>
+          (Write 6–8 sentences. Include what you did, skills gained, why it mattered, and how you’ll apply it.)
+        </p>
+      </article>
+
+      <article class="card activity">
+        <div class="activity-head">
+          <h2>Activity Title <span class="pill">X points</span></h2>
+          <p class="muted small">Category: (optional)</p>
+        </div>
+        <p class="muted small">Summary + Reflection (6–8 sentences):</p>
+        <p>(Your reflection here.)</p>
+      </article>
+
+      <article class="card activity">
+        <div class="activity-head">
+          <h2>Activity Title <span class="pill">X points</span></h2>
+          <p class="muted small">Category: (optional)</p>
+        </div>
+        <p class="muted small">Summary + Reflection (6–8 sentences):</p>
+        <p>(Your reflection here.)</p>
+      </article>
+    </section>
+
+    <!-- ACADEMIC HONESTY STATEMENT -->
+    <section class="card">
+      <h2>Academic Honesty</h2>
+      <p>
+        All activities have been completed by myself during my time at Western Washington University.
+        I have read the Academic Honesty Policy and can confirm that my description of these activities
+        is from my own lived experience of them.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <p class="muted small">© <span id="year"></span> Garrett Cook</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
