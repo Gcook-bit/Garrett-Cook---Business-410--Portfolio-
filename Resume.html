@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume | Garrett Cook</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Garrett Cook</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a class="active" href="resume.html">Resume</a>
+        <a href="pcr.html">PCR Activities</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-head">
+      <h1>Resume</h1>
+      <p class="lead">View my resume below (or provide a download link).</p>
+    </section>
+
+    <section class="card">
+      <h2>Option A: Embed a PDF (recommended)</h2>
+      <ol>
+        <li>Export your resume as PDF.</li>
+        <li>Put it in this same folder and name it: <code>resume.pdf</code></li>
+        <li>This page will automatically show it.</li>
+      </ol>
+
+      <div class="pdf-frame">
+        <object data="resume.pdf" type="application/pdf" width="100%" height="650">
+          <p class="muted">
+            Your browser can’t display the PDF. Use this link:
+            <a class="link" href="resume.pdf">Download resume.pdf</a>
+          </p>
+        </object>
+      </div>
+
+      <h2>Option B: Link only</h2>
+      <p>
+        If you don’t want to embed, delete the box above and add a link to Google Drive or another host.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <p class="muted small">© <span id="year"></span> Garrett Cook</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
